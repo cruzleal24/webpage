@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(157, 161, 139);
+}
+.cont-menu{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.titulo{
+    display: flex;
+}
+.titulo h1{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.menu{
+    gap: 10px;
+    display: flex;
+}
+.menu a{
+    font-size: 1.3em;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px 2px;
+}
+.menu a:hover{
+    color: #ffa;
+    transition: .8s;
+    background-color: rgba(228, 228, 112, 0.205);
+    border-radius: 4%;
+}
+.content{
+    width: 100%;
+    background-color: #d6d6ac;
+}
+.porta, .imagen{
+    width: 50%;
+}
+.imagen img{
+    height: 400px;
+    opacity: .4;
+}
+.content .general{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.item{
+    background-image: url("medios/curiosamente.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-radius: 10% 10% 0 0;
+    width: 143px;
+}
+.item img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 90px;
+}
+.item p{
+    background-color: #680f9c79;
+    font-weight: 600;
+    padding: 10px 5px;
+}
